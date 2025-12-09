@@ -1,1 +1,7 @@
-
+torch
+torchvision
+numpy
+nibabel
+scikit-learn
+matplotlib
+seaborn
