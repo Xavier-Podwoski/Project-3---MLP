@@ -205,7 +205,7 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
 
-    data_dir = "./"  # <-- you MUST set this
+    data_dir = "./"
     ad_paths, cn_paths, ad_labels, cn_labels = get_data_paths(data_dir)
 
     print(f"Data: {len(ad_paths)} AD, {len(cn_paths)} CN")
