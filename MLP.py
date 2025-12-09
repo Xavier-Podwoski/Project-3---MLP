@@ -19,7 +19,7 @@ np.random.seed(16)
 # DATASET CLASS
 # ------------------------------------------------
 class MRIDataset(Dataset):
-    def __init__(self, img_path, labels, t_size=10000):
+    def __init__(self, img_path, labels, t_size=100000):
         self.img_path = img_path
         self.labels = labels
         self.t_size = t_size
