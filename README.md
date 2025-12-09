@@ -2,10 +2,10 @@
 
 Code Features: MLP Classifier
 Metrics Used and Implemented:
-  Accuracy
-  Precision 
-  Recall
-  F1 Score
+  Accuracy,
+  Precision, 
+  Recall,
+  F1 Score,
 
 How to run:
 
